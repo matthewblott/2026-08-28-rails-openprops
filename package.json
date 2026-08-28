@@ -2,14 +2,12 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently 'bin/rails server' 'bin/vite dev'",
-    "old-dev": "concurrently 'bin/rails server' 'bun run build:css:watch'",
     "build:css": "postcss app/assets/stylesheets/application.css -o app/assets/builds/application.css",
     "build:css:watch": "postcss app/assets/stylesheets/application.css -o app/assets/builds/application.css --watch"
   },
   "dependencies": {},
   "devDependencies": {
     "concurrently": "^10.0.5",
-    "cssnano": "^9.0.0",
     "open-props": "^1.7.23",
     "postcss": "^8.5.26",
     "postcss-cli": "^11.0.1",
