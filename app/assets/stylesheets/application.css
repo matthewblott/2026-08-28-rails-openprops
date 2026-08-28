@@ -8,3 +8,17 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+body {
+  color: var(--gray-9);
+  background: var(--gray-0);
+  font-family: var(--font-sans);
+}
+
+.card {
+  padding: var(--size-4);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-2);
+}
+
+

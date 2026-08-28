@@ -1,24 +1,10 @@
-# README
+# Example Rails Todos application using OpenProps
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This uses Bun for the package manager and commands but it's easy enough to swap `bun` in `package.json` for your package manager of choice.
 
-Things you may want to cover:
+Getting started:
+```
+rails db:migrate
+bun dev
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
