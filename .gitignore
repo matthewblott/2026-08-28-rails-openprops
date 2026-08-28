@@ -22,3 +22,5 @@
 # Ignore key files for decrypting credentials and more.
 /config/*.key
 
+# Ignore compiled assets.
+app/assets/builds/application.css
