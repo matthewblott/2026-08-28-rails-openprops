@@ -1,11 +1,3 @@
-// import postcssJitProps from 'postcss-jit-props';
-// import OpenProps from 'open-props';
-//
-// export default {
-//   plugins: [
-//     postcssJitProps(OpenProps),
-//   ]
-  
 import { createRequire } from "node:module";
 import postcssJitProps from "postcss-jit-props";
 
